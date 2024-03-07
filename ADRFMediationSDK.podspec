@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ADRFMediationSDK'
-  s.version          = '3.7.9.10303'
+  s.version          = '3.7.9.10303-beta'
   s.summary          = 'A short description of ADRFMediationSDK.'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
@@ -27,7 +27,6 @@ TODO: Add long description of the pod here.
   s.dependency 'ADRFMediationKit', '~> 0.7.0.06291'
   s.dependency 'ADRFMediationNetwork', '~> 0.2.1.0'
   s.dependency 'ADRFMediationLocationManager','~> 0.2.0.0'
-  s.dependency 'ADRanFengSDK', '2.1.0.1'
   s.library = 'sqlite3'
   s.static_framework = true
   s.requires_arc = true
@@ -35,7 +34,6 @@ TODO: Add long description of the pod here.
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
-=begin
   s.default_subspecs = 'core'
 
   s.subspec 'core' do |sp|
@@ -98,16 +96,15 @@ TODO: Add long description of the pod here.
     end
 
 
-    sp.subspec 'rfads' do |ssp|
-      ssp.vendored_frameworks = 'ADRFMediationSDK/Classes/rf/*.xcframework'
+    sp.subspec 'ranfeng' do |ssp|
+      ssp.vendored_frameworks = 'ADRFMediationSDK/Classes/ranfeng/*.xcframework'
       ssp.dependency 'ADRFMediationSDK/core'
       ssp.dependency 'ADRanFengSDK', '2.1.0.1'
     end
-    sp.subspec 'rfads-without' do |ssp|
-      ssp.vendored_frameworks = 'ADRFMediationSDK/Classes/rf/*.xcframework'
+    sp.subspec 'ranfeng-without' do |ssp|
+      ssp.vendored_frameworks = 'ADRFMediationSDK/Classes/ranfeng/*.xcframework'
       ssp.dependency 'ADRFMediationSDK/core'
     end
 
   end
-=end
 end
