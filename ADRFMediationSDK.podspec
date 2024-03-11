@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ADRFMediationSDK'
-  s.version          = '3.7.9.10303-beta'
+  s.version          = '3.7.9.10303'
   s.summary          = 'A short description of ADRFMediationSDK.'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
@@ -99,7 +99,7 @@ TODO: Add long description of the pod here.
     sp.subspec 'ranfeng' do |ssp|
       ssp.vendored_frameworks = 'ADRFMediationSDK/Classes/ranfeng/*.xcframework'
       ssp.dependency 'ADRFMediationSDK/core'
-      ssp.dependency 'ADRanFengSDK', '2.1.0.1-beta'
+      ssp.dependency 'ADRanFengSDK', '2.1.0.1'
     end
     sp.subspec 'ranfeng-without' do |ssp|
       ssp.vendored_frameworks = 'ADRFMediationSDK/Classes/ranfeng/*.xcframework'

@@ -4,13 +4,9 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>.DS_Store</key>
-		<data>
-		vBRTse3wxwLIy4m5YACcaOeeDBA=
-		</data>
 		<key>ios-arm64_armv7/ADRFMediationSDK.framework/ADRFMediationSDK</key>
 		<data>
-		FYGVz8l6YtEPoX+UUnKlefSS9rg=
+		qgxL8zno9pZiSR/e9paxBaBVJzM=
 		</data>
 		<key>ios-arm64_armv7/ADRFMediationSDK.framework/Headers/ADRFMediationAdViewInfoProtocol.h</key>
 		<data>
@@ -150,7 +146,7 @@
 		</data>
 		<key>ios-arm64_i386_x86_64-simulator/ADRFMediationSDK.framework/ADRFMediationSDK</key>
 		<data>
-		RleKddayqx5DbhoZsERv5lNF1FI=
+		b4T0+Nq9YJ2eGtVwDqDBimgp5f8=
 		</data>
 		<key>ios-arm64_i386_x86_64-simulator/ADRFMediationSDK.framework/Headers/ADRFMediationAdViewInfoProtocol.h</key>
 		<data>
@@ -295,11 +291,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FYGVz8l6YtEPoX+UUnKlefSS9rg=
+			qgxL8zno9pZiSR/e9paxBaBVJzM=
 			</data>
 			<key>hash2</key>
 			<data>
-			C2PFsoJNGKJB3cnftF2qUAo/pf27YFjjtym1UzLtXIQ=
+			Tg2fpR6MEHXSOXNTUPU6JV1KDt4VxDdQC1edjn32c98=
 			</data>
 		</dict>
 		<key>ios-arm64_armv7/ADRFMediationSDK.framework/Headers/ADRFMediationAdViewInfoProtocol.h</key>
@@ -680,11 +676,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RleKddayqx5DbhoZsERv5lNF1FI=
+			b4T0+Nq9YJ2eGtVwDqDBimgp5f8=
 			</data>
 			<key>hash2</key>
 			<data>
-			2IW/heJlBAjCHoD1hCySO72jTyRfpkrwJxaltAhVE2I=
+			/LvM4sB4U7SMjYUC8mzQlyPsVWftXTNn4fFm8I2YAmw=
 			</data>
 		</dict>
 		<key>ios-arm64_i386_x86_64-simulator/ADRFMediationSDK.framework/Headers/ADRFMediationAdViewInfoProtocol.h</key>
