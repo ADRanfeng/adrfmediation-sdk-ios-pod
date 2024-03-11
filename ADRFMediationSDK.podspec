@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ADRFMediationSDK'
-  s.version          = '3.7.9.10303'
+  s.version          = '3.7.9.10303-noidfa'
   s.summary          = 'A short description of ADRFMediationSDK.'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   
   s.xcconfig = {'OTHER_LDFLAGS' => '-ObjC'}
 
-  s.dependency 'ADRFMediationKit', '~> 0.7.0.06291'
+  s.dependency 'ADRFMediationKit', '0.7.0.06291-noidfa'
   s.dependency 'ADRFMediationNetwork', '~> 0.2.1.0'
   s.dependency 'ADRFMediationLocationManager','~> 0.2.0.0'
   s.library = 'sqlite3'
@@ -88,7 +88,7 @@ TODO: Add long description of the pod here.
     sp.subspec 'tianmu' do |ssp|
       ssp.vendored_frameworks = 'ADRFMediationSDK/Classes/tianmu/*.xcframework'
       ssp.dependency 'ADRFMediationSDK/core'
-      ssp.dependency 'TianmuSDK', '2.1.0.1'
+      ssp.dependency 'TianmuSDK', '2.1.0.1-noidfa'
     end
     sp.subspec 'tianmu-without' do |ssp|
       ssp.vendored_frameworks = 'ADRFMediationSDK/Classes/tianmu/*.xcframework'
@@ -99,7 +99,7 @@ TODO: Add long description of the pod here.
     sp.subspec 'ranfeng' do |ssp|
       ssp.vendored_frameworks = 'ADRFMediationSDK/Classes/ranfeng/*.xcframework'
       ssp.dependency 'ADRFMediationSDK/core'
-      ssp.dependency 'ADRanFengSDK', '2.1.0.1'
+      ssp.dependency 'ADRanFengSDK', '2.1.0.1-noidfa'
     end
     sp.subspec 'ranfeng-without' do |ssp|
       ssp.vendored_frameworks = 'ADRFMediationSDK/Classes/ranfeng/*.xcframework'
